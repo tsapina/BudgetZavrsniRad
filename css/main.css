@@ -1,0 +1,391 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image:url('images/bg.gif');
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #8F8F8F;
+}
+
+table
+{
+	color: #2C6700;
+}
+
+p,h1,h2,img
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+#wrapper
+{
+	width: 1200px;
+	margin: 50px auto;
+	box-shadow: 0px 0px 20px rgba(0,0,0,.3);
+	border: 1px dashed #7AC143;
+}
+
+/* ========================================================================*/
+/* ==============================Header====================================*/
+/* ========================================================================*/
+#header
+{
+	
+	background: #7AC143;
+	border-bottom: 1px dashed white;
+	position: relative;
+}
+
+#login-error
+{
+	position: absolute;
+	right: 215px;
+	top: 160px;
+	width: 565px;
+	border: 1px solid;
+	padding: 5px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	color: #D8000C;
+	background-color: #FFBABA;
+}
+
+#header-logo
+{
+	float: left;
+	width: 350px;
+	height: 150px;
+	text-align: center;
+	border-right: 1px dashed white;
+}
+
+#header-logo img
+{
+	margin-top: 25px;
+}
+
+#header-logo p
+{
+	margin: 10px;
+	color: white;
+	font-size: 1 em;
+	text-transform:uppercase;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+}
+#header-logo h1
+{
+	padding: 30px;
+	text-transform: lowercase;
+	letter-spacing: -2px;
+	font-size: 3.6em;
+	font-weight: 700;
+	color: #FFFFFF;
+    text-decoration: none;
+}
+
+#header-login
+{
+	float: right;
+	color: white;
+	padding: 30px;
+	margin-right: 50px;
+	font-weight: bold;
+	
+}
+
+.input-login
+{
+	display: inline-block;
+    float: left;
+}
+
+#header-login input
+{
+	border-radius: 4px 4px 4px 4px;
+    line-height: 1;
+    margin: 20px;
+    padding: 5px;
+}
+
+.submit
+{
+	border-radius: 4px 4px 4px 4px;
+    line-height: 1;
+    margin: 20px;
+    padding: 10px;
+}
+	
+/* ========================================================================*/
+/* ==============================Content===================================*/
+/* ========================================================================*/
+#content
+{
+	background: #FFFFFF;
+	padding: 50px;
+	min-height: 350px;
+}
+
+#content-top
+{
+	border-bottom: 1px solid #CCCCCC;
+	border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 0 10px #CCCCCC;
+    margin: 0 0 15px;
+    padding: 10px;
+    background-repeat: no-repeat;
+	background-position: 10px center;
+	color: #4F8A10;
+	background-color: #DFF2BF;
+	border: 1px solid;
+}
+
+.action a
+{
+	background: #7AC143;
+    border-color: green;
+    border-radius: 4px 4px 4px 4px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 0 2px 4px green;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    height: 10px;
+    line-height: 12px;
+    margin: 0 5px 0 0;
+    outline: medium none;
+    overflow: visible;
+    padding: 5px 10px 8px;
+    text-decoration: none;
+    width: auto;
+}
+
+#content-bottom
+{
+	border-bottom: 1px solid #CCCCCC;
+	border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 0 10px #CCCCCC;
+    margin: 0 0 15px;
+    padding: 10px;
+}
+
+.etiketa a
+{
+	padding: 10px 20px;
+	text-decoration: none;
+	background-color: #DFF2BF;
+	border-radius: 4px 4px 4px 4px;
+	color: #4F8A10;
+	box-shadow: 0 0 10px #CCCCCC;
+}
+
+.etiketa a:hover
+{
+	padding: 10px 20px;
+	text-decoration: none;
+	background-color: #7AC143;;
+	border-radius: 4px 4px 4px 4px;
+	color: white;
+	box-shadow: 0 0 10px #CCCCCC;
+}
+#content-left
+{
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 0 10px #CCCCCC;
+    float: left;
+    margin: 0 0 20px;
+    overflow: hidden;
+    padding: 50px 0;
+    position: relative;
+    width: 800px;
+}
+
+#content-right
+{
+	float: right;
+	border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 0 10px #CCCCCC;
+}
+
+#content-left-index
+{
+	float: left;
+	width: 220px;
+	margin: 10px 0px;
+	padding: 30px;
+	border-radius: 4px 4px 4px 4px;
+	border: 1px solid;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	color: #4F8A10;
+	background-color: #DFF2BF;
+}
+
+#content-right-index
+{
+	float: right;
+	width: 720px;
+	border: 1px solid;
+	margin: 10px 0px;
+	padding:15px 10px 15px 50px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	border-radius: 4px 4px 4px 4px;
+	color: #4F8A10;
+	background-color: #DFF2BF;
+	
+}
+
+#content-right-index ul
+{
+    list-style-type:none;
+}
+#content-right-index li
+{
+	padding:8px; 
+	color: #4F8A10;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    font-family: "Comic Sans MS"; 
+    
+	
+}
+.stanje
+{
+	border-bottom: 1px solid #F1F1F1;
+    margin: 0 0 5px 5px;
+    overflow: hidden;
+    padding: 15px;
+    width: 180px;
+}
+
+.stanje_info
+{
+	background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #999999;
+    font-size: 18px;
+    display: block;
+}
+
+.stanje_negativno
+{
+	color: #FF2F2F;
+    font-size: 22px;
+}
+.stanje_pozitivno
+{
+    color: #A0D026;
+    font-size: 22px;
+}
+/* ========================================================================*/
+/* ==============================Footer====================================*/
+/* ========================================================================*/
+#footer
+{
+	background: #7AC143;
+	padding: 20px 50px;
+	border-top: 1px dashed #7AC143;
+	color: white;
+	font-size: 1 em;
+	text-transform:uppercase;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+	border-top: 1px dashed white;
+}
+
+
+.pozdrav
+{
+	text-align: left;
+	font-size: 15px;
+	padding: 15px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+	border-radius: 4px 4px 4px 4px;
+	border: 1px solid;
+	width: 250px;
+	float: right;
+	margin: 15px;
+	color: #4F8A10;
+	background-color: #DFF2BF;
+}
+.pozdrav a
+{
+	font-family: Arial;
+	color: white;
+}
+/* ========================================================================*/
+/* ==============================Main-menu=================================*/
+/* ========================================================================*/
+
+#main-menu
+{
+	left: 351px;
+	background: #7AC143;
+	position: absolute;
+	bottom: 0;
+}
+
+#main-menu ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	text-align: center;
+	
+}
+
+#main-menu li
+{
+	display: block;
+	float: left;
+	margin-bottom: 20px;
+}
+
+#main-menu a
+{
+	background: #7AC143;
+	padding: 20px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#main-menu a:hover
+{
+	background: white;
+	color: #7AC143;
+}
+
+/* ========================================================================*/
+/* ==============================O projektu ===============================*/
+/* ========================================================================*/
+
+#oprojektu
+{
+	border-bottom: 1px solid #CCCCCC;
+	border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 0 10px #CCCCCC;
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+}
+#oprojektu h1
+{
+	margin: 15px 10px;
+}
+#oprojektu p
+{
+	margin: 15px 10px;
+}
+
+
