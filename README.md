@@ -1,4 +1,4 @@
 BudgetZavrsniRad
 ================
 
-HTML, CSS, JavaScript, PHP, SQL.
+Aplikacija omogućuje unos informacija o računima, prihodima i rashodima registriranim korisnicima. Korištene tehnologije HTML ,CSS, JS, PHP, SQL.
